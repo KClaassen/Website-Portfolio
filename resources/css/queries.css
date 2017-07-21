@@ -1,0 +1,74 @@
+
+
+
+/* Surface laptop/tablets */
+@media only screen and (max-width: 1430px) {
+    .hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -180%);
+}
+
+    .hero-text-box h1 {
+        font-size: 185%;
+    }
+    
+
+    .info-box {
+    width: 20%;
+    float: left;
+
+    padding-top: 50px;
+}
+
+    .info-list {
+        float: ;
+    }
+    
+    .icon-list li { list-style: none;}
+    .icon-list {
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+
+
+
+
+/* Big tablet to 1200 px (widths smaller then the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        position: absolute;
+        width: 100%;
+        padding: 0 25%;
+}
+    
+    .hero-text-box h1 {
+        font-size: 150%;
+    }
+    
+}
+
+/* Small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    
+}
+
