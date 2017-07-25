@@ -82,15 +82,16 @@ $(document).ready(function() {
 /* 
 * Function to animate image thumbnail arrows on hover
 */
-$.fn.hoverThumb = function() { 	
+//$.fn.hoverThumb = function() { 	
   	
 	// only animate for large desktop browsers
-  	if($(window).width() >= 1140){
+  	if($(window).width() >= 1140 ){
 
 	  	$(".portfolio-thumb").mouseenter(function(e){
+        
 
 			//$(this).hoverFlow(e.type, {opacity:1}, 300).siblings().hoverFlow(e.type, {opacity:0.3}, 300);
-			$(".portfolio-thumb").stop().animate({'opacity':'1'}, 300).siblings().stop().animate({'opacity':'0.4'}, 500);
+			$(this).stop().animate({'opacity':'1'}, 300).siblings().stop().animate({'opacity':'0.4'}, 300);
 
 		})
         
@@ -98,12 +99,12 @@ $.fn.hoverThumb = function() {
 		$('#thumbs').mouseleave(function(e){
 
 			// we reset the thumbs 
-			$('#thumbs li').stop().animate({'opacity':'1'}, 500);
+			$('#thumbs li').stop().animate({'opacity':'1'}, 300);
 
 		});	
 
 	}
-};		
+//};		
 
     
     

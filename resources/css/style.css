@@ -215,7 +215,7 @@ header {
 /* Main navi */
 
 .logo {
-    height: 100px;
+    height: 50px;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -241,7 +241,7 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .main-nav li {
@@ -255,7 +255,7 @@ header {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 120%;
+    font-size: 100%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
@@ -293,6 +293,10 @@ header {
 /* -------------------------------------- */
 /* Portfolio */
 /* -------------------------------------- */
+
+.section-portfolio {
+    background-color: #fafafa;
+}
 
 .portfolio-thumb {
     max-width: 32%;
@@ -389,7 +393,16 @@ header {
   .thumbs .description {
     padding: 0.7em 47px 0.6em 0.7em;
   }
-
+  .thumbs .arrow-r {
+    width: 32px;
+    height: 32px;
+    background: url(img/sprite.png);
+    display: block;
+    background-position: -63px -107px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
 
 
 /* -------------------------------------- */
@@ -397,7 +410,7 @@ header {
 /* -------------------------------------- */
 
 .section-skills {
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 .skills-showcase li {
@@ -513,26 +526,27 @@ header {
 
 .icon-list li {
     list-style: none;
-    margin-bottom: 85%;
+    margin-bottom: 48px;
     margin-left: 250%;
 }
 
 .info-list {
     margin-top: -7%;
-    margin-left: 30%;
-    width: 60%;
-}
-
-.icon-list {
-    margin-top: -10%; 
+    margin-left: 14%;
+    margin-bottom: 5px;
+    width: 20%;
 }
 
 .info-block {
-    margin-left: 15em;
-    margin-top: -10em;
-    margin-bottom: 18em;
-    margin-right: -200em;
+    margin-top: 60px;
+    margin-bottom: -20px;
 }
+
+.icon-list {
+    margin-top: 1px; 
+    padding-top: 1px;
+}
+
 
 .icon-small {
     font-size: 300%;
